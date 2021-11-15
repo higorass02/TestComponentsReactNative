@@ -2,11 +2,17 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Index from './src/index'
+import Form from './src/components/form/index'
+
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text></Text>
-    </View>
+    <>
+      <View style={styles.container}>
+        <Index/>
+        <Form/>
+      </View>
+    </>
   );
 }
 
